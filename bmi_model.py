@@ -23,5 +23,5 @@ result=str(result)
 print(type(result))
 print(result)
 #saving the model
-filename = 'bmi.pkl'
+filename = 'mydel.pkl'
 joblib.dump(model_learer, filename)
